@@ -9,7 +9,7 @@ import pickle
 import numpy as np
 
 # Load the trained model, scaler, and polynomial features from the .pkl file
-model_path = salary_model.pkl
+model_path = "salary_model.pkl"
 with open(model_path, "rb") as file:
     model_data = pickle.load(file)
 
