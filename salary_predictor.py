@@ -22,7 +22,7 @@ st.markdown("<h1 style='text-align: center; color: red; font-size: 36px; text-de
 st.markdown("<h3 style='text-align: center;'>Please answer all of the questions below, and click predict salary</h3>", unsafe_allow_html=True)
 
 # Display the image
-image_path = r"C:\Users\timeb\Downloads\download (1).jpg"
+image_path = "download (1).jpg"
 st.image(image_path, caption="", use_column_width="auto", output_format="auto")
 
 # Input fields
